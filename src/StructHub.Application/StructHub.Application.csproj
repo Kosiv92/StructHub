@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\StructHub.Contracts\StructHub.Contracts.csproj" />
+    <ProjectReference Include="..\StructHub.Core\StructHub.Core.csproj" />
   </ItemGroup>
 
 </Project>

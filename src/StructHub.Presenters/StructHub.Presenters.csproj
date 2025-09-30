@@ -8,6 +8,15 @@
 
   <ItemGroup>
     <ProjectReference Include="..\StructHub.Contracts\StructHub.Contracts.csproj" />
+    <ProjectReference Include="..\StructHub.Core\StructHub.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.3.0" />
   </ItemGroup>
 
 </Project>

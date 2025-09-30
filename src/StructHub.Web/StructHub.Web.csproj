@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StructHub.Application\StructHub.Application.csproj" />
+    <ProjectReference Include="..\StructHub.Contracts\StructHub.Contracts.csproj" />
+    <ProjectReference Include="..\StructHub.Core\StructHub.Core.csproj" />
+    <ProjectReference Include="..\StructHub.Infrastructure\StructHub.Infrastructure.csproj" />
+    <ProjectReference Include="..\StructHub.Presenters\StructHub.Presenters.csproj" />
+  </ItemGroup>
+
+</Project>

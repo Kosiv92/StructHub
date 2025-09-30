@@ -6,8 +6,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\StructHub.Contracts\StructHub.Contracts.csproj" />
-  </ItemGroup>
-
 </Project>
